@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cmse492-nba-player-clustering"
+version = "0.1.0"
+description = "NBA player clustering project"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+nba_api = "*"
+pandas = "*"
+scikit-learn = "*"
+plotly = "*"
+umap-learn = "*"
+jupyter = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry-core.masonry.api"
